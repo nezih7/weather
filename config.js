@@ -22,8 +22,6 @@ async function weather(event){
         return;
     }
 	response=await data.json();
-	//console.log(response)
-	//console.log(response);
 	element1=document.getElementById("hr");
 	element1.style.display="block";
 	element2=document.getElementById("wn");
