@@ -14,7 +14,7 @@ async function weather(event){
     	return;
 	}	
 	//weather
-	id="e085cf37468150fa12062fffa2d4e11e";
+	id="Your_API_key";// check the read me file
 	requestString=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${id}`;
 	data=await fetch(requestString);
 	if (!data.ok) {
