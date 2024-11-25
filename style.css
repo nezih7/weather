@@ -1,0 +1,142 @@
+body{
+	background: url(background.jpg) 10%;
+	background-size: 1495px 1500px;
+	background-repeat: no-repeat;
+}
+#screen{
+	border-radius: 10px;
+	width:600px ;
+	height:450px ;
+	margin-top: 13%;
+	margin-left: 29%;
+
+}
+#work{
+	position: absolute;
+	top: 1%;
+	left: 36.5%;
+	width: 400px;
+	height: 760px;
+	border: solid 3px white;
+	border-radius: 10px;
+	background: url(background.jpg) 100%;
+	 background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.7;	
+}
+input[type="button"]{
+	height: 50px;
+	width: 250px;
+	border-radius: 6px;
+	background:grey;
+	position: absolute;
+	top: 145px;
+	left: 80px;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}
+input[type="button"]:hover{
+	color: red;
+	background: #5784BA;
+	text-decoration: underline;
+}
+#weather{
+	font-family:Bahnschrift SemiCondensed ;
+	font-size: 40px;
+	position: absolute;
+	top: -20px;
+	left: 140px;
+}
+input[type="text"]{
+	position: absolute;
+	top: 80px;
+	left: 70px;
+	border-radius: 10px;
+	height: 35px;
+	width: 270px;
+	font-size:18px ;
+}
+#hr{
+	position: absolute;
+	top: 27%;
+	height: 0px;
+	border: solid 2px;
+	border-color: black;
+}
+#pic{
+	width:200px;
+	position: absolute;
+	top: 28%;
+	left: 23%; 
+}
+#wn{
+	width:100px;
+	position: absolute;
+	top: 60%;
+	left: 70%; 
+}
+#degree{
+	font-family: Arial;
+	font-size: 70px;
+	position: absolute;
+	top: 52%;
+	left: 10%;
+	color: white;
+}
+#vn{
+	font-family: Arial;
+	font-size: 30px;
+	position: absolute;
+	top: 68%;
+	left: 70%;
+	color: white;
+}
+#country{
+	font-family: Arial;
+	font-size: 40px;
+	position: absolute;
+	top: 80%;
+	left: 6%;
+	color: black;
+}
+#ti{
+	font-family: Arial;
+	font-size: 40px;
+	position: absolute;
+	top: 80%;
+	left: 70%;
+	color: black;
+}
+#desc{
+	display: inline-block;
+	font-family: Arial;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 26%;
+	color: black;
+}
+#editor{
+	font-family: Arial;
+	font-size: 35px;
+	position: relative;
+	top: 50%;
+	left: 136%;
+	color: blue;
+	text-decoration: underline ;	
+}
+
+a{
+	color: red;
+}
+a:visited{
+	color: red;
+}
+a:hover{
+	color: red;	
+}
+a:active{
+	color: green;	
+}
+
